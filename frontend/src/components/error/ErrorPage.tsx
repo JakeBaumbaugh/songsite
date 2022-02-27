@@ -6,10 +6,10 @@ type ErrorProp = {
 }
 
 export default function ErrorPage(props:ErrorProp) {
-	return <div className="App">
-		<header className="App-header">
-			<img src={logo} className="App-logo" alt="logo" />
+	return <main className="error">
+		<header className="error-header">
+			<img src={logo} className="error-logo" alt="logo" />
 			<p>{props.message || "This page does not exist yet."}</p>
 		</header>
-	</div>;
+	</main>;
 }

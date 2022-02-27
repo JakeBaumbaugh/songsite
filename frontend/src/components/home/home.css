@@ -1,0 +1,33 @@
+main.home {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 3fr 2fr;
+}
+
+main.home > section.left {
+    background: var(--green);
+    color: var(--white);
+}
+
+main.home > section.right {
+    background: var(--white);
+    color: var(--gray);
+    margin: 20px 80px;
+}
+
+main.home > section.right > p {
+    font-size: 1.4em;
+    font-weight: bold;
+    margin: 40px 50px;
+}
+
+main.home > section.right > h1 {
+    font-size: 4em;
+    color: var(--green);
+}
+
+main.home > section.right > #stopify {
+    width: 40%;
+    display: block;
+    margin: 80px auto;
+}
