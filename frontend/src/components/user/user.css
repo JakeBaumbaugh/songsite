@@ -1,0 +1,28 @@
+main.user {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 2fr 1fr;
+}
+
+main.user > section.left {
+    background: var(--green);
+    color: var(--white);
+}
+
+main.user > section.right {
+    background: var(--white);
+    color: var(--gray);
+    margin: 20px 80px;
+}
+
+main.user > section.right > p {
+    font-size: 1.4em;
+    font-weight: bold;
+    margin: 40px 50px;
+}
+
+main.user > section.right > h1 {
+    font-size: 4em;
+    color: var(--green);
+    text-align: center;
+}

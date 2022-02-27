@@ -1,10 +1,13 @@
 import React from "react";
-import { Outlet } from "react-router-dom";
+import { Link, Outlet } from "react-router-dom";
 import "./layout.css";
 
 export default function PageLayout() {
     return <React.Fragment>
-        <header></header>
+        <header>
+        <Link to="/">Home</Link>
+            <Link to="user/jbdude2010">My Songs</Link>
+        </header>
         <Outlet/>
         <footer>
             Footer in progress

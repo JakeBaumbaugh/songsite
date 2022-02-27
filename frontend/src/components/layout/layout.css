@@ -6,6 +6,18 @@ header, footer {
 
 header {
     height: 100px;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    padding-right: 100px;
+}
+
+header > a {
+    color: var(--white);
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 15px 30px;
 }
 
 footer {
