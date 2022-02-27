@@ -1,0 +1,17 @@
+header, footer {
+    background: var(--gray);
+    color: var(--white);
+    width: 100%;
+}
+
+header {
+    height: 100px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    height: 50px;
+    text-align: center;
+    padding: 15px;
+}
